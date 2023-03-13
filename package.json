@@ -1,31 +1,20 @@
 {
-  "name": "task-management-backend",
+  "name": "taskmanagement",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Raj3028/Task-Management-BackEnd.git"
-  },
-  "author": "Rajesh Kumar Sahoo",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Raj3028/Task-Management-BackEnd/issues"
-  },
-  "homepage": "https://github.com/Raj3028/Task-Management-BackEnd#readme",
   "dependencies": {
-    "bcrypt": "^5.1.0",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^6.9.0",
+    "mongoose": "^7.0.1",
     "multer": "^1.4.5-lts.1"
   }
 }
