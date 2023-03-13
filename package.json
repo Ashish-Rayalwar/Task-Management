@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/Raj3028/Task-Management-BackEnd.git"
   },
-  "author": "Rajesh Kumar Sahoo",
+   "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <17.0.0"
+  },
+  "author": "Ashish Rayalwar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Raj3028/Task-Management-BackEnd/issues"
